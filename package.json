@@ -1,0 +1,16 @@
+{
+  "name": "CURSO-ES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Joylson/CURSO-ES6.git",
+  "author": "Joylson <joylsont@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
